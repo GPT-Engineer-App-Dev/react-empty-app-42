@@ -8,7 +8,8 @@ const Index = () => {
         bg="blue.500"
         color="white"
         padding="1.5rem"
-        justifyContent="center"
+        justifyContent="space-between"
+        alignItems="center"
       >
         <Heading size="md">Hello World App</Heading>
       </Flex>
@@ -20,8 +21,9 @@ const Index = () => {
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
+        p={4}
       >
-        <VStack spacing={4}>
+        <VStack spacing={4} textAlign="center">
           <Heading as="h1" size="2xl">
             Hello World!
           </Heading>
